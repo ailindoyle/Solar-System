@@ -6,44 +6,170 @@ svg {
     stroke: #ffffff;
     stroke-width: 1;
     fill: transparent;
+    cx: 500;
+    cy: 500;
+}
+
+.planet {
+    cx: 500;
+    cy: 500;
 }
 
 .sun {
     fill: #ffd100;
+    r: 60;
 }
 
 .mercury {
     fill: #ff6800;
+    r: 7;
+    animation: mercury-spin 2s linear infinite;
 }
 
 .venus {
     fill: #ff8b00;
+    r: 9;
+    animation: venus-spin 5s linear infinite;
 }
 
 .earth {
     fill: #03af90;
+    r: 11;
+    animation: earth-spin 8s linear infinite;
 }
 
 .mars {
     fill: #af1803;
+    r: 12;
+    animation: mars-spin 15s linear infinite;
 }
 
 .jupiter {
     fill: #b73939;
+    r: 35;
+    animation: jupiter-spin 99s linear infinite;
 }
 
 .saturn {
     fill: #97a363;
+    r: 30;
+    animation: saturn-spin 244s linear infinite;
 }
 
 .uranus {
     fill: #8296b8;
+    r: 15;
+    animation: uranus-spin 695s linear infinite;
 }
 
 .neptune {
     fill: #1a79d3;
+    r: 14;
+    animation: neptune-spin 1359s linear infinite;
 }
 
 .pluto {
     fill: #d46c86;
+    r: 5;
+    animation: pluto-spin 10s linear infinite;
+}
+
+
+@keyframes mercury-spin {
+    0% {
+        transform: rotate(0deg) translate(80px) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg) translate(80px) rotate(360deg);
+    }
+}
+
+
+@keyframes venus-spin {
+    0% {
+        transform: rotate(0deg) translate(100px) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg) translate(100px) rotate(360deg);
+    }
+}
+
+@keyframes earth-spin {
+    0% {
+        transform: rotate(0deg) translate(125px) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg) translate(125px) rotate(360deg);
+    }
+}
+
+@keyframes mars-spin {
+    0% {
+        transform: rotate(0deg) translate(155px) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg) translate(155px) rotate(360deg);
+    }
+}
+
+@keyframes jupiter-spin {
+    0% {
+        transform: rotate(0deg) translate(230px) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg) translate(230px) rotate(360deg);
+    }
+}
+
+@keyframes saturn-spin {
+    0% {
+        transform: rotate(0deg) translate(330px) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg) translate(330px) rotate(360deg);
+    }
+}
+
+@keyframes uranus-spin {
+    0% {
+        transform: rotate(0deg) translate(390px) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg) translate(390px) rotate(360deg);
+    }
+}
+
+@keyframes neptune-spin {
+    0% {
+        transform: rotate(0deg) translate(430px) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg) translate(430px) rotate(360deg);
+    }
+}
+
+@keyframes pluto-spin {
+    0% {
+        transform: rotate(0deg) translateX(480px) translateY(0px) rotate(0deg);
+    }
+    25% {
+        transform: rotate(-90deg) translateX(0px) translateY(480px) rotate(90deg);
+    }
+    50% {
+        transform: rotate(-180deg) translateX(480px) translateY(0px) rotate(180deg);
+    }
+    75% {
+        transform: rotate(-270deg) translateX(0px) translateY(480px) rotate(270deg);
+    }
+    100% {
+        transform: rotate(-360deg) translateX(480px) translateY(0px) rotate(360deg);
+    }
 }
