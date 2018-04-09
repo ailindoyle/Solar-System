@@ -1,0 +1,9 @@
+svg {
+    background-color: #000000;
+}
+
+.orbit {
+    stroke: #ffffff;
+    stroke-width: 1;
+    fill: transparent;
+}
