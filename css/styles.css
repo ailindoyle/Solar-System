@@ -23,57 +23,77 @@ svg {
 .mercury {
     fill: #ff6800;
     r: 7;
+    -webkit-animation: mercury-spin 5s linear infinite;
+    -moz-animation: mercury-spin 5s linear infinite;
     animation: mercury-spin 5s linear infinite;
 }
 
 .venus {
     fill: #ff8b00;
     r: 9;
+    -webkit-animation: venus-spin 8s linear infinite;
+    -moz-animation: venus-spin 8s linear infinite;
     animation: venus-spin 8s linear infinite;
 }
 
 .earth {
     fill: #03af90;
     r: 11;
+    -webkit-animation: earth-spin 10s linear infinite;
+    -moz-animation: earth-spin 10s linear infinite;
     animation: earth-spin 10s linear infinite;
 }
 
 .mars {
     fill: #af1803;
     r: 12;
+    -webkit-animation: mars-spin 15s linear infinite;
+    -moz-animation: mars-spin 15s linear infinite;
     animation: mars-spin 15s linear infinite;
 }
 
 .jupiter {
     fill: #b73939;
     r: 35;
+    -webkit-animation: jupiter-spin 20s linear infinite;
+    -moz-animation: jupiter-spin 20s linear infinite;
     animation: jupiter-spin 20s linear infinite;
 }
 
 .saturn {
     fill: #97a363;
     r: 30;
+    -webkit-animation: saturn-spin 23s linear infinite;
+    -moz-animation: saturn-spin 23s linear infinite;
     animation: saturn-spin 23s linear infinite;
 }
 
 .uranus {
     fill: #8296b8;
     r: 15;
+    -webkit-animation: uranus-spin 28s linear infinite;
+    -moz-animation: uranus-spin 28s linear infinite;
     animation: uranus-spin 28s linear infinite;
 }
 
 .neptune {
     fill: #1a79d3;
     r: 14;
+    -webkit-animation: neptune-spin 35s linear infinite;
+    -moz-animation: neptune-spin 35s linear infinite;
     animation: neptune-spin 35s linear infinite;
 }
 
 @keyframes mercury-spin {
     0% {
+        -webkit-transform: rotate(0deg) translate(80px) rotate(0deg);
+        -moz-transform: rotate(0deg) translate(80px) rotate(0deg);
         transform: rotate(0deg) translate(80px) rotate(0deg);
     }
 
     100% {
+        -webkit-transform: rotate(-360deg) translate(80px) rotate(360deg);
+        -moz-transform: rotate(-360deg) translate(80px) rotate(360deg);
         transform: rotate(-360deg) translate(80px) rotate(360deg);
     }
 }
@@ -81,70 +101,98 @@ svg {
 
 @keyframes venus-spin {
     0% {
+        -webkit-transform: rotate(0deg) translate(100px) rotate(0deg);
+        -moz-transform: rotate(0deg) translate(100px) rotate(0deg);
         transform: rotate(0deg) translate(100px) rotate(0deg);
     }
 
     100% {
+        -webkit-transform: rotate(-360deg) translate(100px) rotate(360deg);
+        -moz-transform: rotate(-360deg) translate(100px) rotate(360deg);
         transform: rotate(-360deg) translate(100px) rotate(360deg);
     }
 }
 
 @keyframes earth-spin {
     0% {
+        -webkit-transform: rotate(0deg) translate(125px) rotate(0deg);
+        -moz-transform: rotate(0deg) translate(125px) rotate(0deg);
         transform: rotate(0deg) translate(125px) rotate(0deg);
     }
 
     100% {
+        -webkit-transform: rotate(-360deg) translate(125px) rotate(360deg);
+        -moz-transform: rotate(-360deg) translate(125px) rotate(360deg);
         transform: rotate(-360deg) translate(125px) rotate(360deg);
     }
 }
 
 @keyframes mars-spin {
     0% {
+        -webkit-transform: rotate(0deg) translate(155px) rotate(0deg);
+        -moz-transform: rotate(0deg) translate(155px) rotate(0deg);
         transform: rotate(0deg) translate(155px) rotate(0deg);
     }
 
     100% {
+        -webkit-transform: rotate(-360deg) translate(155px) rotate(360deg);
+        -moz-transform: rotate(-360deg) translate(155px) rotate(360deg);
         transform: rotate(-360deg) translate(155px) rotate(360deg);
     }
 }
 
 @keyframes jupiter-spin {
     0% {
+        -webkit-transform: rotate(0deg) translate(230px) rotate(0deg);
+        -moz-transform: rotate(0deg) translate(230px) rotate(0deg);
         transform: rotate(0deg) translate(230px) rotate(0deg);
     }
 
     100% {
+        -webkit-transform: rotate(-360deg) translate(230px) rotate(360deg);
+        -moz-transform: rotate(-360deg) translate(230px) rotate(360deg);
         transform: rotate(-360deg) translate(230px) rotate(360deg);
     }
 }
 
 @keyframes saturn-spin {
     0% {
+        -webkit-transform: rotate(0deg) translate(330px) rotate(0deg);
+        -moz-transform: rotate(0deg) translate(330px) rotate(0deg);
         transform: rotate(0deg) translate(330px) rotate(0deg);
     }
 
     100% {
+        -webkit-transform: rotate(-360deg) translate(330px) rotate(360deg);
+        -moz-transform: rotate(-360deg) translate(330px) rotate(360deg);
         transform: rotate(-360deg) translate(330px) rotate(360deg);
     }
 }
 
 @keyframes uranus-spin {
     0% {
+        -webkit-transform: rotate(0deg) translate(390px) rotate(0deg);
+        -moz-transform: rotate(0deg) translate(390px) rotate(0deg);
         transform: rotate(0deg) translate(390px) rotate(0deg);
     }
 
     100% {
+        -webkit-transform: rotate(-360deg) translate(390px) rotate(360deg);
+        -moz-transform: rotate(-360deg) translate(390px) rotate(360deg);
         transform: rotate(-360deg) translate(390px) rotate(360deg);
     }
 }
 
 @keyframes neptune-spin {
     0% {
+        -webkit-transform: rotate(0deg) translate(430px) rotate(0deg);
+        -moz-transform: rotate(0deg) translate(430px) rotate(0deg);
         transform: rotate(0deg) translate(430px) rotate(0deg);
     }
 
     100% {
+        -webkit-transform: rotate(-360deg) translate(430px) rotate(360deg);
+        -moz-transform: rotate(-360deg) translate(430px) rotate(360deg);
         transform: rotate(-360deg) translate(430px) rotate(360deg);
     }
 }
