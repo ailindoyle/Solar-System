@@ -23,19 +23,19 @@ svg {
 .mercury {
     fill: #ff6800;
     r: 7;
-    animation: mercury-spin 2s linear infinite;
+    animation: mercury-spin 5s linear infinite;
 }
 
 .venus {
     fill: #ff8b00;
     r: 9;
-    animation: venus-spin 5s linear infinite;
+    animation: venus-spin 8s linear infinite;
 }
 
 .earth {
     fill: #03af90;
     r: 11;
-    animation: earth-spin 8s linear infinite;
+    animation: earth-spin 10s linear infinite;
 }
 
 .mars {
@@ -47,33 +47,26 @@ svg {
 .jupiter {
     fill: #b73939;
     r: 35;
-    animation: jupiter-spin 99s linear infinite;
+    animation: jupiter-spin 20s linear infinite;
 }
 
 .saturn {
     fill: #97a363;
     r: 30;
-    animation: saturn-spin 244s linear infinite;
+    animation: saturn-spin 23s linear infinite;
 }
 
 .uranus {
     fill: #8296b8;
     r: 15;
-    animation: uranus-spin 695s linear infinite;
+    animation: uranus-spin 28s linear infinite;
 }
 
 .neptune {
     fill: #1a79d3;
     r: 14;
-    animation: neptune-spin 1359s linear infinite;
+    animation: neptune-spin 35s linear infinite;
 }
-
-.pluto {
-    fill: #d46c86;
-    r: 5;
-    animation: pluto-spin 10s linear infinite;
-}
-
 
 @keyframes mercury-spin {
     0% {
@@ -156,20 +149,28 @@ svg {
     }
 }
 
-@keyframes pluto-spin {
-    0% {
-        transform: rotate(0deg) translateX(480px) translateY(0px) rotate(0deg);
-    }
-    25% {
-        transform: rotate(-90deg) translateX(0px) translateY(480px) rotate(90deg);
-    }
-    50% {
-        transform: rotate(-180deg) translateX(480px) translateY(0px) rotate(180deg);
-    }
-    75% {
-        transform: rotate(-270deg) translateX(0px) translateY(480px) rotate(270deg);
-    }
-    100% {
-        transform: rotate(-360deg) translateX(480px) translateY(0px) rotate(360deg);
-    }
-}
+/*PLUTO WIP*/
+
+/*.pluto {*/
+    /*fill: #d46c86;*/
+    /*r: 5;*/
+    /*animation: pluto-spin 40s linear infinite;*/
+/*}*/
+
+/*@keyframes pluto-spin {*/
+    /*0% {*/
+        /*transform: rotate(0deg) translateX(480px) translateY(0px) rotate(0deg);*/
+    /*}*/
+    /*25% {*/
+        /*transform: rotate(-90deg) translateX(400px) translateY(0px) rotate(90deg);*/
+    /*}*/
+    /*50% {*/
+        /*transform: rotate(-180deg) translateX(480px) translateY(0px) rotate(180deg);*/
+    /*}*/
+    /*75% {*/
+        /*transform: rotate(-270deg) translateX(400px) translateY(0px) rotate(270deg);*/
+    /*}*/
+    /*100% {*/
+        /*transform: rotate(-360deg) translateX(480px) translateY(0px) rotate(360deg);*/
+    /*}*/
+/*}*/
